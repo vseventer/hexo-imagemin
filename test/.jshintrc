@@ -1,0 +1,17 @@
+{
+  "indent"   : 2,
+  "latedef"  : true,
+  "newcap"   : true,
+  "nonew"    : true,
+  "plusplus" : true,
+  "quotmark" : "single",
+
+  "node": true,
+
+  "globals": {
+    "beforeEach" : true,
+    "describe"   : true,
+    "expect"     : true,
+    "it"         : true
+  }
+}

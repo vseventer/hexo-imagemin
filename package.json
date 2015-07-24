@@ -1,0 +1,32 @@
+{
+  "name"        : "hexo-imagemin",
+  "version"     : "0.1.0",
+  "description" : "imagemin plugin for Hexo.",
+  "keywords"    : [ "hexo", "hexo-plugin", "hexo-filter", "imagemin", "gif", "jpg", "png" ],
+  "homepage"    : "https://github.com/vseventer/hexo-imagemin",
+  "bugs"        : "https://github.com/vseventer/hexo-imagemin/issues",
+  "license"     : "MIT",
+  "author"      : "Mark van Seventer <mark@vseventer.com>",
+  "repository"  : { "type": "git", "url": "vseventer/hexo-imagemin" },
+  "main"        : "./index.js",
+  "scripts"     : {
+    "pretest" : "./node_modules/.bin/jshint --reporter=./node_modules/jshint-stylish lib/ test/ *.js",
+    "test"    : "./node_modules/.bin/mocha test/"
+  },
+  "dependencies": {
+    "bluebird"          : "2.9.x",
+    "debug"             : "2.2.x",
+    "imagemin"          : "3.2.x",
+    "imagemin-mozjpeg"  : "5.1.x",
+    "imagemin-pngquant" : "4.1.x",
+    "minimatch"         : "2.0.x",
+    "object-assign"     : "3.0.x",
+    "stream-to-array"   : "2.0.x"
+  },
+  "devDependencies": {
+    "jshint"         : "2.8.x",
+    "jshint-stylish" : "2.0.x",
+    "mocha"          : "2.2.x"
+  },
+  "engines": { "node" : ">=0.10.x" }
+}
