@@ -26,6 +26,9 @@ imagemin:
 - **pngquant** - Enable [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant) plugin. Defaults to `false`.
 - **progressive** - Lossless conversion to progressive. Defaults to `false`.
 
+## Debugging
+Launch the node process like `DEBUG=hexo:imagemin hexo ...` to inspect debug messages.
+
 ## Changelog
 See the [Changelog](./CHANGELOG.md) for a list of changes.
 

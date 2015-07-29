@@ -1,8 +1,8 @@
 {
   "name"        : "hexo-imagemin",
-  "version"     : "0.1.0",
+  "version"     : "0.1.1-dev",
   "description" : "imagemin plugin for Hexo.",
-  "keywords"    : [ "hexo", "hexo-plugin", "hexo-filter", "imagemin", "gif", "jpg", "png" ],
+  "keywords"    : [ "hexo", "hexo-plugin", "hexo-filter", "imagemin", "gif", "jpg", "png", "svg" ],
   "homepage"    : "https://github.com/vseventer/hexo-imagemin",
   "bugs"        : "https://github.com/vseventer/hexo-imagemin/issues",
   "license"     : "MIT",
