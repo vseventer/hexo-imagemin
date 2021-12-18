@@ -1,3 +1,5 @@
+> **Note:** This repository is not maintained - please use alternatives like [hexo-imagemin-modern](https://github.com/TimDaub/hexo-imagemin-modern/).
+
 # imagemin plugin for [Hexo](https://hexo.io)
 > Minify images with [imagemin](https://github.com/imagemin/imagemin).
 
